@@ -1,7 +1,6 @@
 # Summary
 
 * [Introduction](README.md)
-* [前言](README.md)
 * [第一章 Javascript](Chapter1/README.md)
     * [第1节：基础](Chapter1/基础.md)
     * [第2节：原理性实现](Chapter1/原理性实.md)

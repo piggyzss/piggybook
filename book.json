@@ -1,6 +1,11 @@
 {
     "title": "前端面试指北",
     "author": "珊珊",
+    "links" : {
+        "sidebar" : {
+            "前端面试指北" : "https://piggyzss.github.io/piggybook/"
+        }
+    },
     "plugins": [
         "hide-element",
         "back-to-top-button",
@@ -9,11 +14,45 @@
         "-lunr",
         "-search",
         "search-pro",
-        "pageview-count"
+        "pageview-count",
+        "-highlight",
+        "prism",
+        "prism-themes",
+        "tbfed-pagefooter",
+        "-sharing", 
+        "sharing-plus",
+        "changyan"
     ],
     "pluginsConfig": {
         "hide-element": {
             "elements": [".gitbook-link"]
+        },
+        "prism": {
+            "css": [
+              "prism-themes/themes/prism-xonokai.css"
+            ]
+        },
+        "tbfed-pagefooter": {
+            "copyright": "Copyright &copy shanshan 2020",
+            "modify_label": "该文章修订时间：",
+            "modify_format": "YYYY-MM-DD HH:mm:ss"
+        },
+        "sharing": {
+            "google": true,
+            "twitter": true,
+            "qq": true,
+            "weibo": true
+        },
+        "changyan": {
+            "appid": "your changyan's appid",
+            "conf": "the conf in the code generate by changyan"
         }
+    },
+    "styles": {
+        "website": "styles/chapter1.css",
+        "ebook": "styles/ebook.css",
+        "pdf": "styles/pdf.css",
+        "mobi": "styles/mobi.css",
+        "epub": "styles/epub.css"
     }
 }

@@ -1,0 +1,15 @@
+h1, h2, h3, h4, h5, h6 {
+    color: rgb(123, 101, 157);
+}
+
+.markdown-section a{
+    color: #d26c9e;
+    /* color: rgb(249, 222, 229); */
+}
+
+.book-summary ul.summary li.active>a {
+    color: rgb(123, 101, 157);
+    font-weight: bolder;
+    background: 0 0;
+    text-decoration: none;
+}
