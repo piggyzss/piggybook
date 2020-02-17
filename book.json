@@ -49,10 +49,10 @@
         }
     },
     "styles": {
-        "website": "styles/chapter1.css",
-        "ebook": "styles/ebook.css",
-        "pdf": "styles/pdf.css",
-        "mobi": "styles/mobi.css",
-        "epub": "styles/epub.css"
+        "website": "assets/styles/chapter1.css",
+        "ebook": "assets/styles/ebook.css",
+        "pdf": "assets/styles/pdf.css",
+        "mobi": "assets/styles/mobi.css",
+        "epub": "assets/styles/epub.css"
     }
 }
