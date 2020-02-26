@@ -123,6 +123,8 @@ preflighted request在发送真正的请求前, 会先发送一个方法为OPTIO
 
 由于在真正访问资源前需要发送一个请求进行探测，因此该请求被称为是Preflight Request。
 
+**【tips】**：preflighted request见第三章第3节：跨域问题
+
 - **trace**：返回显示服务收到的请求，主要用于测试或诊断
 - **connect**：http/1.1协议中预留给能够将链接改为管道方式的代理服务
 
